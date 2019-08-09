@@ -58,7 +58,7 @@ Be sure to store this auth token somewhere for future use. If you lose this toke
 from nanoleaf import Aurora
 
 my_aurora = Aurora("169.254.123.123", "5EvbR2FjfmYfAkEtOkEnolnZbe6qOB")
-my_aurora.on = True
+my_aurora.on = { "value": True }
 my_aurora.effect = "Violets Are Blue"
 ```
 
